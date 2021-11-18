@@ -1,0 +1,488 @@
+
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     
+   }
+
+   .sec{
+       background-color:white;
+       
+       }
+
+       
+
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+       .div-wrapper{
+           height: 740px;
+           width: 100%;
+           background-color: #470A73;
+           margin-top: 20px;
+           
+           
+       }
+         .h-5{
+             
+             padding-top: 10px;
+             padding-left: 30px;
+         }
+           
+         .background-elipse{
+             width: 100%;
+             height: auto;
+         }
+            .elipse-1{
+                z-index: 0;
+                position: absolute;
+                top: 92px;
+                right: 300px;
+                width: 650px;
+                height: 650px;
+                box-shadow: 0px 2px 3px darkslateblue;
+                border: 80px solid darkslateblue;
+                opacity: 0.35;
+                border-radius: 50%;
+            }
+
+             .elipse-2{
+                 z-index: 0;
+                 position: absolute;
+                 top: 150px;
+                 right: 5px;
+                 width: 550px;
+                 height: 550px;
+                 box-shadow: 0px 2px 3px darkslateblue;
+                border: 80px solid darkslateblue;
+                opacity: 0.35;
+                border-radius: 50%;
+                }
+
+            .flex-parent{
+               display: flex;
+               justify-content:end;
+               margin-left: 10px;
+           
+                }
+
+               .ul-link{
+                   list-style: none;
+               }
+                .ul-link li{
+                    display: inline;
+                }
+                .ul-link li a{
+                   text-decoration: none;
+                }
+
+                  .start{
+                      padding: 10px  40px;
+                      margin-right: 20px;
+                       font-size: 12px;
+                      background-color: #ffffff;
+                      
+                  }
+                    .login{
+                       background-color: #470A73;
+                       color: white;
+                       padding: 10px 40px;
+                       font-size: 10px;
+                       margin-right: 20px;
+                        border: 1px solid #f2f2f2;
+                       border-radius: 3px;
+                          }
+
+                     h6{
+                         margin-top: 7px;
+                         margin-right: 10px;
+                     }
+                         .in{
+                             margin-right: 40px;
+                         }
+
+
+                           h1,h2{
+                               font-family: Georgia, 'Times New Roman', Times, serif;
+                               font-size: 30px;
+                               color: white;
+                               line-height: 40px;
+
+                           }
+               .cryto{
+                   margin-left: 30px;
+                   margin-top: 70px;
+               }
+                  .easily{
+                      color: white;
+                      font-family: Verdana, Geneva, Tahoma, sans-serif;
+                      margin-top: 20px;
+                  }
+
+                  .get{
+                   padding: 7px;
+                   margin-right: 20px;
+                   width: 200px;
+                   height: 30px;
+                   margin-top: 30px;
+                   
+               }
+                 .apple{
+                     display: flex;
+                     margin-left: 28px;
+                     margin-top: 10px;
+                     
+                 }
+
+                    .cal-parent{
+                        width: 100%;
+                        height: fit-content;
+                        background-color: blue;
+                        display: flex;
+                        justify-content: space-between;
+                         
+                       
+                    }
+
+                   .f-1{
+                       flex-basis: 20%;
+                       display: flex;
+                       flex-direction: column;
+                       width: 100%;
+                   }
+                     .f-2{
+                         flex-basis: 20%;
+                         display: flex;
+                       flex-direction: column;
+                       width: 100%;
+
+                     }
+                     .f-3{
+                       flex-basis: 20%;
+                       display: flex;
+                       flex-direction: column;
+                       width: 100%;
+                   }
+                   .f-4{
+                       flex-basis: 20%;
+                       display: flex;
+                       flex-direction: column;
+                       width: 100%;
+                   }
+                   .f-5{
+                       flex-basis: 20%;
+                       display: flex;
+                       flex-direction: column;
+                       width: 100%;
+                   }
+                      .fl-1{
+                          display: flex;
+                          width: 100%;
+                          justify-content: space-around;
+                          background-color: darkgreen;
+                      }
+                      .fl-2{
+                       display: flex;
+                        width: 100%;
+                      justify-content: space-around;
+                      background-color: cyan;
+                   }
+                   .fl-3{
+                       display: flex;
+                       width: 100%;
+                       justify-content: space-around;
+                       background-color: chocolate;
+                   }
+                   .fl-4{
+                       display: flex;
+                       width: 100%;
+                       background-color: burlywood;
+                       justify-content: space-around;
+                   }
+                   .fl-5{
+                       display: flex;
+                       justify-content: space-around;
+                       width: 100%;
+                       background-color: brown;
+                   }
+
+
+
+
+                     span{
+                         font-size:12px;
+                         padding-top: 5px;
+                       }
+                         .money{
+                             margin-top: 30px;
+                             margin-left: 45px;
+                             font-size: 12px;
+                         } 
+
+                           .question{
+                               text-align: center;
+                               text-transform: capitalize;
+                               color:#470A73;
+                               font-size: 20px;
+                               margin-top: 30px;
+                               font-weight: bolder;
+                               font-family: 'Times New Roman', Times, serif;
+                               
+                           }
+           .container{
+               background-color:yellow;
+               padding: 10px;
+               margin-top: 40px;
+               display: flex;
+               justify-content: space-evenly;
+               
+           }
+             .number-1{
+                 background-color: honeydew;
+                 color: khaki;
+                 border-radius: 10px;
+                 margin-bottom: 10px;
+                 flex-basis: 25%;
+             }
+                 #mode{
+                     padding-bottom: 20px;
+                     font-size: 20px;
+                     font-weight: bolder;
+                     color: #470A73;
+                     text-align: center;
+                     text-transform: capitalize;
+                   
+
+                 }
+                    .info{
+                        text-align: center;
+                        font-size: larger;
+                        color: #470A73;
+                    }
+
+                   .number-flex{
+                       padding: 10px;
+                   }
+                       .learn-more{
+                        position: relative;
+                        left: 45%; 
+                       margin-top: 30px;  
+                       text-align: center;
+                       color: #470A73;
+                       font-size: 15px;
+                        padding: 10px;
+                       margin-right: 20px;
+                       width: 200px;
+                       height: 35px;
+                       border: 1px solid #470A73;
+                       border-radius: 3px;
+                       }
+
+                        .steps{
+                            color: #470A73;
+                            font-weight: bolder;
+                            text-transform: capitalize;
+                            text-align: center;
+                            font-size: 30px;
+                            height: fit-content;
+                            margin-top: 50px;
+                        }
+                       
+                          .account-parent{
+                              display: flex;
+                              justify-content: space-between;
+                              margin-top: 30px;
+                          }
+                            .account-1{
+                                margin-top: 100px;
+                            }
+                           
+                          .num{
+                            width: 25px;
+                            height: 25px;
+                              background-color: #470A73;
+                              color: white;
+                              padding: 3px;
+                              border-radius: 2px;
+                              margin-left: 5px;
+                              text-align: center;
+                          }
+                           
+                          .num-free{
+                              display: flex;
+                          }
+
+                            #c-free{
+                                margin-left: 20px;
+                                font-weight: bold;
+                                font-size: 25px;
+                                color: #470A73;
+                            }
+                              .para{
+                                  margin-left: 50px;
+                                  color: #470A73;
+                                  margin-top: 5px;
+
+                              }
+
+                                .see{
+                                    background-color: #470A73;
+                                    text-align: center;
+                                    padding-top: 10px;
+                                }
+                                .trading{
+                                   display: flex;
+                                   margin-left: 42%;
+                                   margin-top: 10px;
+                                   text-align: center;
+                               
+                                }
+                                  #for{
+                                    font-size: 30px;
+                                    color: white;
+                                  }
+                                  #ready{
+                                      font-size:17px;
+                                      color: white;
+                                    }
+
+                                    #coma{
+                                        color:blue;
+                                    }
+
+                                    #square{
+                                        position: relative;
+                                        
+                                    }
+                                       #square-text{
+                                           position: relative;
+                                            bottom: 170px;
+                                           color: white;
+                                           text-align: center;
+                                           
+                                       }
+                                         .reviews{
+                                             text-transform: capitalize;
+                                             font-size: 25px;
+                                             font-weight: bold;
+                                             text-align: center;
+                                             color: #470A73;
+                                             margin-bottom: 50px;
+                                             margin-top: 50px;
+                                         }
+
+                                         #bute{
+                                             width: 80px;
+                                             height: 80px;
+                                             border-radius: 50%;
+                                             
+                                         }
+                                            #double-curve{
+                                                position: relative;
+                                                bottom: 180px;
+                                                left: 20px;
+                                            }
+
+                                          .fly{
+                                              display: flex;
+                                              position: relative;
+                                              bottom: 95px;
+                                              left: 20px;
+                                       
+                                          }
+
+                                          .fly-2{
+                                           display: flex;
+                                           position: relative;
+                                           bottom: 60px;
+                                           left: 20px;
+                                    
+                                       }
+
+                                       .fly-3{
+                                           display: flex;
+                                           position: relative;
+                                           bottom: 75px;
+                                           left: 20px;
+                                    
+                                       }
+
+                                           .danny{
+                                               margin-top: 20px;
+                                               margin-left: 5px;
+                                           }
+                                           .country{
+                                               font-size: 11px;
+                                           }
+                                             .flex-boss{
+                                               display: flex;
+                                               justify-content: space-evenly;
+                                               background-color: #f2f2f2;  
+                                                 
+                                             }
+                                             .flex-b1{
+                                               flex-basis: 25%;
+                                             }
+
+                                             .flex-b2{
+                                               flex-basis: 25%;
+                                             }
+
+                                             .flex-b3{
+                                               flex-basis: 25%;
+                                             }
+
+
+                                              #footer{
+                                                  width: 100%;
+                                                  height: fit-content;
+                                                  background-color: #ffffff;
+                                                  display: flex;
+                                                  justify-content: space-around;
+                                                  line-height: 25px;
+                                              }
+
+
+                                              #products{
+                                                  flex-basis: 15%;
+                                              }
+
+                                              #learn{
+                                                  flex-basis: 15%;
+                                              }
+
+                                              #contact{
+                                                  flex-basis: 15%;
+                                              }
+                                              #company{
+                                                  flex-basis: 15%;
+                                              }
+
+                                              #legal{
+                                                  flex-basis: 15%;
+                                              }
+
+                                               #icons{
+                                                   margin-top: 10px;
+                                               }
+
+                                               #head-title{
+                                                   font-weight: bold;
+                                                   font-size: 20px;
+                                                   margin-top: 20px;
+                                               }
+
+                                                #close{
+                                                    text-align: center;
+                                                    background-color: #f2f2f2;
+                                                    padding: 5px;
+
+                                                }
+
+
+
+                                                
